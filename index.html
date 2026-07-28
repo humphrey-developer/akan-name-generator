@@ -16,8 +16,26 @@
         </header>
         <!-- Form container -->
         <form>
-            <div>
+            <!-- Birthdate selection -->
+            <div class="input-group">
+                <lable for="birthdate">Enter your Birthdate:</lable>
+                <input for="date" id="birthdate" required placeholder="day/month/year">                
+            </div>
+            <!-- Gender Selection -->
+            <div class="input-group">
+                <span class="group-label">Select your gender:</span>
 
+                <div class="radio-option">
+                    <lable class="radio-lable">
+                        <input type="radio" name="gender" value="male" required>
+                        <span class="custom-radio">Male</span>
+                    </lable>
+
+                    <lable class="radio-lable">
+                        <input type="radio" name="gender" value="female" required>
+                        <span class="custom-radio">Female</span>
+                    </lable>
+                </div>
             </div>
         </form>       
          
