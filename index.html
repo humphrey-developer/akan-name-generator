@@ -19,7 +19,7 @@
             <!-- Birthdate selection -->
             <div class="input-group">
                 <lable for="birthdate">Enter your Birthdate:</lable>
-                <input for="date" id="birthdate" required placeholder="day/month/year">                
+                <input type="date" id="birthdate" required placeholder="day/month/year">                
             </div>
             <!-- Gender Selection -->
             <div class="input-group">
@@ -29,7 +29,7 @@
                     <lable class="radio-lable">
                         <input type="radio" name="gender" value="male" required>
                         <span class="custom-radio">Male</span>
-                    </lable>
+                    </lable><br>
 
                     <lable class="radio-lable">
                         <input type="radio" name="gender" value="female" required>
@@ -37,7 +37,16 @@
                     </lable>
                 </div>
             </div>
-        </form>       
+            <!-- Action Button -->
+            <div>
+                <button type="submit" class="submit-btn">Generate My Name</button><br><br>
+                <button type="reset"  class="reset-btn">Reset</button> 
+            </div>         
+        </form> 
+        <section> 
+            <h3>Your Akan Name</h3>
+            <p id="resultText"></p>
+        </section>      
          
     </main>
     
