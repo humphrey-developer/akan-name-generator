@@ -4,6 +4,11 @@
     font-family: 'Times New Roman', Times, serif;
     
 }
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
 
 h1 {
     font-size: 30px;
@@ -14,8 +19,11 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-
-
+/* LABEL */
+.radio-label {
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, serif;
+}
 
 
 
