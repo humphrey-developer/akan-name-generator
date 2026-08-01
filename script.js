@@ -1,9 +1,13 @@
 // SETTING UP EVENT LISTENER
-const formSection = document.getElementById("form_section");
-formSection.addEventListener("submit",function(event) {
+function handleFormSubmit(event) {
     event.preventDefault();
-    console.log("")
-})
+    console.log("Form submission got")
+}
+// selecting form from my HTML
+const formElement = document.getElementById("form_section");
+formElement.addEventListener("submit",handleFormSubmit);
+
+
 
 
 
