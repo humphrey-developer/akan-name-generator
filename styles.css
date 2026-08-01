@@ -6,31 +6,31 @@
 }
 /* BODY EDITS */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e4e7eb 0%, #075ce6 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
 }
 
-/* --- 2. CARD CONTAINER --- */
+/* MAIN PAGE EDDITS */
 main {
-    background-color: #ffffff;
+    background-color: #d89393;
     max-width: 500px;
     width: 100%;
     border-radius: 12px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(24, 23, 23, 0.1);
     padding: 30px;
     text-align: center;
 }
 
-/* --- 3. HEADER STYLING --- */
+/* HEADER STYLING */
 .main-header {
     margin-bottom: 25px;
     padding-bottom: 15px;
-    border-bottom: 2px solid #f0f0f0;
+    border-bottom: 2px solid #1b1b1b;
 }
 
 .main-header h1 {
@@ -41,12 +41,12 @@ main {
 }
 
 .main-header p {
-    color: #7f8c8d;
-    font-size: 14px;
-    line-height: 1.4;
+    color: #412209;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
-/* --- 4. FORM ELEMENTS --- */
+/* FORM ELEMENTS */
 #form_section {
     display: flex;
     flex-direction: column;
