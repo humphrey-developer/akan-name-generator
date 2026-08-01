@@ -14,11 +14,11 @@ In Akan culture, children are named based on their gender and the day of the wee
 
 ##  Live Demo
 
- **[View Live Site]()**
+ **[View Live Site](https://humphrey-developer.github.io/akan-name-generator/)**
 
 ## Project Setup Instructions
 
 1. **Clone the repository:**
 
    ```terminal
-   git clone []()
+   git clone [https://github.com/humphrey-developer/akan-name-generator.git ](https://humphrey-developer.github.io/akan-name-generator/)
