@@ -31,15 +31,27 @@ function handleFormSubmit(event) {
 
     console.log("Gender:", selectedGender);
     console.log(`CC: ${CC}, YY: ${YY}, MM: ${MM}, DD: ${DD}`);
-}    
-
    
+
+
+// CALCULATING DAY OF WEEK 
+let d = (
+        Math.floor(CC / 4) - (2 * CC) - 1 +
+        Math.floor((5 * YY) / 4) +
+        Math.floor((26 * (MM + 1)) / 10) +
+        DD
+    ) % 7;
+// fix JS module
+if (d < 0) {
+        d = d + 7
+}
+
+console.log("Calculated day index (d):", d);
+}
+
 // selecting form from my HTML
 const formElement = document.getElementById("form_section");
 formElement.addEventListener("submit",handleFormSubmit);
-
-
-
 
 
 
