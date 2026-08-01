@@ -46,8 +46,13 @@ if (d < 0) {
         d = d + 7
 }
 
-console.log("Calculated day index (d):", d);
+const dayName = days_of_week[d];
+    const akanName = (selectedGender === "male") ? male_names[d] : female_names[d];
+
+    const resultElement = document.getElementById("resultText");
+    resultElement.textContent = `You were born on a ${dayName}. Your Akan name is ${akanName}!`;
 }
+
 
 // selecting form from my HTML
 const formElement = document.getElementById("form_section");
