@@ -4,7 +4,7 @@ Simple web application that calculates the day of the week a user was born and a
 
 ## Author
 
-**Humphrey** - [GitHub Profile](https://github.com/humphrey-developer)
+**Humphrey** - [GitHub Profile](https://github.com/humphrey-developer/akan-name-generator.git)
 
 ---
 
@@ -14,7 +14,7 @@ In Akan culture, children are named based on their gender and the day of the wee
 
 ##  Live Demo
 
- **[View Live Site](https://humphrey-developer.github.io/akan-name-generator/)**
+ **[View Live Site]()**
 
 ## Project Setup Instructions
 
