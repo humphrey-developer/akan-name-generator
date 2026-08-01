@@ -72,10 +72,11 @@ input[type="date"] {
     font-size: 15px;
     color: #333;
     transition: border-color 0.3s;
+    font-weight: bold;
 }
 
 input[type="date"]:focus {
-    border-color: #3498db;
+    border-color: #1530ca;
     outline: none;
 }
 
@@ -92,10 +93,10 @@ input[type="date"]:focus {
     gap: 8px;
     cursor: pointer;
     font-size: 15px;
-    color: #2c3e50;
+    color: #163452;
 }
 
-/* --- 5. BUTTONS --- */
+/* BUTTONS */
 .button-group {
     display: flex;
     gap: 12px;
